@@ -21,7 +21,7 @@
 # 
 # vcom "C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pll_altera_sim/pll_altera.vho"
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:46 on Mar 01,2025
 # vcom -reportprogress 300 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pll_altera_sim/pll_altera.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -29,23 +29,23 @@
 # -- Loading package altera_lnsim_components
 # -- Compiling entity pll_altera
 # -- Compiling architecture RTL of pll_altera
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:46 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/startup_reset.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:46 on Mar 01,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/startup_reset.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity startup_reset
 # -- Compiling architecture rtl of startup_reset
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:46 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_uart_rtl.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:46 on Mar 01,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_uart_rtl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -53,11 +53,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity serial_uart
 # -- Compiling architecture rtl of serial_uart
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:46 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:46 on Mar 01,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -71,22 +71,22 @@
 # ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(48): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(50): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(52): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:46 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
 # vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/reset_ctrl_rtl.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:46 on Mar 01,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/reset_ctrl_rtl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity reset_ctrl
 # -- Compiling architecture rtl of reset_ctrl
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:46 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:46 on Mar 01,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -94,11 +94,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity pwm_ctrl
 # -- Compiling architecture rtl of pwm_ctrl
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:46 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:46 on Mar 01,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -106,11 +106,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity key_ctrl
 # -- Compiling architecture rtl of key_ctrl
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:46 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:46 on Mar 01,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -118,11 +118,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity dc_disp_ctrl
 # -- Compiling architecture rtl of dc_disp_ctrl
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:47 on Mar 01,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:30:53 on Mar 01,2025
+# Start time: 22:41:47 on Mar 01,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -137,12 +137,12 @@
 # -- Loading entity serial_ctrl
 # -- Loading entity dc_disp_ctrl
 # -- Loading entity pwm_ctrl
-# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:41:47 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim work.pwm_module_top
 # vsim work.pwm_module_top 
-# Start time: 13:30:59 on Mar 01,2025
+# Start time: 22:41:53 on Mar 01,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -186,9 +186,22 @@ add wave -position end  sim:/pwm_module_top/Complete_reset_n
 add wave -position end  sim:/pwm_module_top/s_startup_reset
 add wave -position end  sim:/pwm_module_top/clk_50
 add wave -position end  sim:/pwm_module_top/pll_locked
-force g_simulation true
-# ** UI-Msg: (vish-4009) Cannot force 'g_simulation'.
-# 
+do ../../xd.txt
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+run 500ns
+run 500us
+run 500us
 do ../../xd.txt
 # GetModuleFileName: Det går inte att hitta den angivna modulen.
 # 
@@ -205,22 +218,9 @@ do ../../xd.txt
 # Info: sim_additional_refclk_cycles_to_lock = 0
 # Info: output_clock_high_period = 5000.000000
 # Info: output_clock_low_period = 5000.000000
-# ** Fatal: (vsim-3421) Value 11 is out of range 0 to 10.
-#    Time: 196930 ns  Iteration: 4  Process: /pwm_module_top/i_dc_disp_a/p_display File: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd Line: 65
-# Fatal error in Process p_display at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd line 65
-# 
-# HDL call sequence:
-# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 65 Subprogram fn_create_bcd
-# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 125 Process p_display
-# 
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 65 Subprogram fn_create_bcd
-# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 125 Process p_display
-# 
 vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:33:22 on Mar 01,2025
+# Start time: 22:45:00 on Mar 01,2025
 # vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -228,24 +228,25 @@ vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjec
 # -- Loading package NUMERIC_STD
 # -- Compiling entity dc_disp_ctrl
 # -- Compiling architecture rtl of dc_disp_ctrl
-# End time: 13:33:22 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:45:00 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:33:33 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# Start time: 22:45:03 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity key_ctrl
-# -- Compiling architecture rtl of key_ctrl
-# End time: 13:33:33 on Mar 01,2025, Elapsed time: 0:00:00
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# End time: 22:45:03 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 do ../../xd.txt
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.key_ctrl(rtl)
 # Loading work.dc_disp_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
 # Info: =================================================
 # Info:           Generic PLL Summary
 # Info: =================================================
@@ -258,25 +259,16 @@ do ../../xd.txt
 # Info: sim_additional_refclk_cycles_to_lock = 0
 # Info: output_clock_high_period = 5000.000000
 # Info: output_clock_low_period = 5000.000000
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# ** Fatal: (vsim-3421) Value 11 is out of range 0 to 10.
-#    Time: 196930 ns  Iteration: 4  Process: /pwm_module_top/i_dc_disp_a/p_display File: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd Line: 65
-# Fatal error in Process p_display at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd line 65
+# ** Fatal: (vsim-3421) Value 5 is out of range 0 to 4.
+#    Time: 545610 ns  Iteration: 4  Process: /pwm_module_top/i_dc_disp_a/p_display File: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd Line: 183
+# Fatal error in Process p_display at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd line 183
 # 
 # HDL call sequence:
-# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 65 Subprogram fn_create_bcd
-# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 125 Process p_display
-# 
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 65 Subprogram fn_create_bcd
-# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 125 Process p_display
+# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 183 Process p_display
 # 
 vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:33:47 on Mar 01,2025
+# Start time: 22:46:05 on Mar 01,2025
 # vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -284,75 +276,11 @@ vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjec
 # -- Loading package NUMERIC_STD
 # -- Compiling entity dc_disp_ctrl
 # -- Compiling architecture rtl of dc_disp_ctrl
-# End time: 13:33:47 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 22:46:05 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 do ../../xd.txt
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.dc_disp_ctrl(rtl)
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# ** Fatal: (vsim-3421) Value 11 is out of range 0 to 10.
-#    Time: 196930 ns  Iteration: 4  Process: /pwm_module_top/i_dc_disp_a/p_display File: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd Line: 64
-# Fatal error in Process p_display at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd line 64
-# 
-# HDL call sequence:
-# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 64 Subprogram fn_create_bcd
-# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 124 Process p_display
-# 
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 64 Subprogram fn_create_bcd
-# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 124 Process p_display
-# 
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:34:37 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity dc_disp_ctrl
-# -- Compiling architecture rtl of dc_disp_ctrl
-# End time: 13:34:37 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-do ../../xd.txt
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.dc_disp_ctrl(rtl)
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-run 1 ms
-add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/s_clk_cn
-add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/s_target_freq
-add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/prev_key_n_2r
-add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/key_n_2r
-do ../../xd.txt
 # GetModuleFileName: Det går inte att hitta den angivna modulen.
 # 
 # 
@@ -368,148 +296,9 @@ do ../../xd.txt
 # Info: sim_additional_refclk_cycles_to_lock = 0
 # Info: output_clock_high_period = 5000.000000
 # Info: output_clock_low_period = 5000.000000
-run 100us
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/s_output
-add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/s_output
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:57:52 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity dc_disp_ctrl
-# -- Compiling architecture rtl of dc_disp_ctrl
-# End time: 13:57:52 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:58:04 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity key_ctrl
-# -- Compiling architecture rtl of key_ctrl
-# End time: 13:58:04 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:58:06 on Mar 01,2025
+# Start time: 22:56:52 on Mar 01,2025
 # vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -517,31 +306,37 @@ vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjec
 # -- Loading package NUMERIC_STD
 # -- Compiling entity pwm_ctrl
 # -- Compiling architecture rtl of pwm_ctrl
-# End time: 13:58:06 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(66): near ";": (vcom-1576) expecting ')'.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(74): near "if": (vcom-1576) expecting PROCESS.
+# End time: 22:56:52 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:58:07 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# Start time: 22:57:45 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
-# -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 13:58:07 on Mar 01,2025, Elapsed time: 0:00:00
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(114): near "if": (vcom-1576) expecting GENERATE or THEN or USE.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(152): near "else": (vcom-1576) expecting END.
+# End time: 22:57:45 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:00 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 22:58:01 on Mar 01,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 do ../../xd.txt
-# Loading work.pwm_module_top(str)
-# Loading work.key_ctrl(rtl)
-# Loading work.dc_disp_ctrl(rtl)
 # Loading work.pwm_ctrl(rtl)
 # GetModuleFileName: Det går inte att hitta den angivna modulen.
 # 
@@ -558,144 +353,9 @@ do ../../xd.txt
 # Info: sim_additional_refclk_cycles_to_lock = 0
 # Info: output_clock_high_period = 5000.000000
 # Info: output_clock_low_period = 5000.000000
-add wave -position end  sim:/pwm_module_top/s_dc_updated
-run 20ms
-run 5ms
-# WARNING: No extended dataflow license exists
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:21:50 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity key_ctrl
-# -- Compiling architecture rtl of key_ctrl
-# End time: 14:21:50 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:21:52 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
-# -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 14:21:52 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-do ../../xd.txt
-# Loading work.pwm_module_top(str)
-# Loading work.key_ctrl(rtl)
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:24:09 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity key_ctrl
-# -- Compiling architecture rtl of key_ctrl
-# End time: 14:24:09 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:24:11 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
-# -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 14:24:11 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-do ../../xd.txt
-# Loading work.pwm_module_top(str)
-# Loading work.key_ctrl(rtl)
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-add wave -position end  sim:/pwm_module_top/i_dc_disp_a/s_bcd_result
-add wave -position end  sim:/pwm_module_top/i_dc_disp_a/s_bcd_result
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
+run 1ms
 add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc
-force s_pwm_dc 98
-run 10us
+add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc
 do ../../xd.txt
 # GetModuleFileName: Det går inte att hitta den angivna modulen.
 # 
@@ -712,169 +372,73 @@ do ../../xd.txt
 # Info: sim_additional_refclk_cycles_to_lock = 0
 # Info: output_clock_high_period = 5000.000000
 # Info: output_clock_low_period = 5000.000000
-run 20ms
-add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_isEnabled
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+run 1ms
+force -deposit sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc 98 0
+run 1ms
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_pkg.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:34:02 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# Start time: 23:02:02 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
+# -- Compiling package testbench_pkg
+# -- Compiling package body testbench_pkg
+# -- Loading package testbench_pkg
+# End time: 23:02:02 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:02:04 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package testbench_pkg
+# -- Compiling entity testbench_top
+# -- Compiling architecture bhv of testbench_top
+# -- Loading entity pwm_module_top
 # -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 14:34:02 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 23:02:04 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:34:03 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): (vcom-1581) No feasible entries for infix operator '/='.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): Type error resolving infix expression "/=" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(59): near "s_wasEnabled_LastCyl": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(85): near "if": (vcom-1576) expecting PROCESS.
-# End time: 14:34:03 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:34:04 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity key_ctrl
-# -- Compiling architecture rtl of key_ctrl
-# End time: 14:34:05 on Mar 01,2025, Elapsed time: 0:00:01
+vsim work.testbench_top
+# End time: 23:02:09 on Mar 01,2025, Elapsed time: 0:20:16
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:34:06 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity dc_disp_ctrl
-# -- Compiling architecture rtl of dc_disp_ctrl
-# End time: 14:34:06 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:34:08 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): (vcom-1581) No feasible entries for infix operator '/='.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): Type error resolving infix expression "/=" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(59): near "s_wasEnabled_LastCyl": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(85): near "if": (vcom-1576) expecting PROCESS.
-# End time: 14:34:08 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:34:30 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): (vcom-1581) No feasible entries for infix operator '/='.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): near "=": (vcom-1576) expecting ')'.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(85): near "if": (vcom-1576) expecting PROCESS.
-# End time: 14:34:30 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:34:45 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(59): near "s_wasEnabled_LastCyl": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(85): near "if": (vcom-1576) expecting PROCESS.
-# End time: 14:34:45 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:35:03 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(59): Illegal sequential statement.
-# ** Note: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(194): VHDL Compiler exiting
-# End time: 14:35:03 on Mar 01,2025, Elapsed time: 0:00:00
+# vsim work.testbench_top 
+# Start time: 23:02:09 on Mar 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.testbench_pkg(body)
+# Loading work.testbench_top(bhv)
+# ** Error: (vsim-13) Recompile work.pwm_module_top(str) because work.dc_disp_ctrl, work.pwm_ctrl have changed.
+# Load interrupted
+# Error loading design
+# End time: 23:02:10 on Mar 01,2025, Elapsed time: 0:00:01
 # Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:35:24 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# End time: 14:35:24 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:35:27 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# End time: 14:35:27 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+vsim work.testbench_top
+# vsim work.testbench_top 
+# Start time: 23:02:14 on Mar 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.testbench_pkg(body)
+# Loading work.testbench_top(bhv)
+# ** Error: (vsim-13) Recompile work.pwm_module_top(str) because work.dc_disp_ctrl, work.pwm_ctrl have changed.
+# Load interrupted
+# Error loading design
+# End time: 23:02:14 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
 vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:35:29 on Mar 01,2025
+# Start time: 23:02:25 on Mar 01,2025
 # vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -889,75 +453,211 @@ vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjec
 # -- Loading entity serial_ctrl
 # -- Loading entity dc_disp_ctrl
 # -- Loading entity pwm_ctrl
-# End time: 14:35:29 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 23:02:25 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-do ../../xd.txt
+vsim work.testbench_top
+# vsim work.testbench_top 
+# Start time: 23:02:26 on Mar 01,2025
+# Loading std.standard
+# ** Error: (vsim-13) Recompile work.testbench_top(bhv) because work.pwm_module_top has changed.
+# Error loading design
+# End time: 23:02:27 on Mar 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:02:36 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package testbench_pkg
+# -- Compiling entity testbench_top
+# -- Compiling architecture bhv of testbench_top
+# -- Loading entity pwm_module_top
+# -- Loading entity serial_uart
+# End time: 23:02:36 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench_top
+# vsim work.testbench_top 
+# Start time: 23:02:38 on Mar 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.testbench_pkg(body)
+# Loading work.testbench_top(bhv)
 # Loading work.pwm_module_top(str)
 # Loading work.key_ctrl(rtl)
+# Loading work.serial_uart(rtl)
+# Loading work.serial_ctrl(rtl)
 # Loading work.dc_disp_ctrl(rtl)
 # Loading work.pwm_ctrl(rtl)
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-force s_pwm_dc 98
-# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
-# 
-force s_pwm_dc 98
-# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
-# 
-force -deposit sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc 98 0
-run 10ns
-run 2ms
-run 2ms
-run 1ms
-run 1ms
-run 2ms
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:46:02 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity dc_disp_ctrl
-# -- Compiling architecture rtl of dc_disp_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(108): (vcom-1588) Range cannot be actual parameter
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(108): Expecting FUNCTION call returning std.STANDARD.INTEGER where PROCEDURE call was found.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(109): (vcom-1588) Range cannot be actual parameter
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(109): Expecting FUNCTION call returning std.STANDARD.INTEGER where PROCEDURE call was found.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(110): (vcom-1588) Range cannot be actual parameter
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(110): Expecting FUNCTION call returning std.STANDARD.INTEGER where PROCEDURE call was found.
-# ** Note: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(160): VHDL Compiler exiting
-# End time: 14:46:02 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:46:03 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# End time: 14:46:04 on Mar 01,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
+add wave -position end  sim:/testbench_top/clock_50
+add wave -position end  sim:/testbench_top/reset_n
+add wave -position end  sim:/testbench_top/kill_clock
+add wave -position end  sim:/testbench_top/serial_received_data
+add wave -position end  sim:/testbench_top/serial_received_data_valid
+add wave -position end  sim:/testbench_top/serial_received_error
+add wave -position end  sim:/testbench_top/serial_received_parity_error
+add wave -position end  sim:/testbench_top/serial_transmit_ready
+add wave -position end  sim:/testbench_top/serial_transmit_data_valid
+add wave -position end  sim:/testbench_top/serial_transmit_data
+add wave -position end  sim:/testbench_top/key_n
+add wave -position end  sim:/testbench_top/fpga_in_rx
+add wave -position end  sim:/testbench_top/fpga_out_tx
+add wave -position end  sim:/testbench_top/ledr
+add wave -position end  sim:/testbench_top/ledg
+add wave -position end  sim:/testbench_top/hex0_n
+add wave -position end  sim:/testbench_top/hex1_n
+add wave -position end  sim:/testbench_top/hex2_n
+add wave -position end  sim:/testbench_top/dut_pwm
+add wave -position end  sim:/testbench_top/dut_pwm_r
+add wave -position end  sim:/testbench_top/detected_dc
+add wave -position end  sim:/testbench_top/detected_freq
+add wave -position end  sim:/testbench_top/hex_dc_valid
+add wave -position end  sim:/testbench_top/hex_dc_detected
+add wave -position end  sim:/testbench_top/uart_recv_state
+add wave -position end  sim:/testbench_top/dc_save
+add wave -position end  sim:/testbench_top/serial_detected_dc
+add wave -position end  sim:/testbench_top/serial_dc_valid
+add wave -position end  sim:/testbench_top/serial_dc_update
+add wave -position end  sim:/testbench_top/serial_dc_error
+add wave -position end  sim:/testbench_top/current_test_case_no
+add wave -position end  sim:/testbench_top/key_on_n
+add wave -position end  sim:/testbench_top/key_off_n
+add wave -position end  sim:/testbench_top/key_up_n
+add wave -position end  sim:/testbench_top/key_down_n
+add wave -position end  sim:/testbench_top/saved_detected_dc
+run -all
+# Simulation starts
+# Test case #0 - Check startup values - expect 0 %
+# ** Warning: Hundreds character invalid on serial interface.
+#    Time: 92805 ns  Iteration: 1  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       7 segment output duty cycle invalid data.
+#    Test case #0 - FAIL.
+# Test case #1 - Key control - ON - expect 100 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 1001265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 1501285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 2001305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 2501325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 3001345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 3501365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 4001385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 4501405 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - Outside tolerance!
+#    Test case #1 - FAIL.
+# Test case #2 - Key control - OFF - expect 0%
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #2 - FAIL.
+# Test case #3 - Key control - UP - should set Duty Cycle to 10%
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #3 - FAIL.
+# Test case #4 - Check 1kHz PWM frequency (+/- 1 Hz)
+#       Detected PWM frequency : 0 Hz
+#    Test case #4 - FAIL.
+# Test case #5 - Key hold control - UP 50 ms to ~15 % Duty cycle
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #5 - FAIL.
+# Test case #6 - Key control - DOWN 5 ms to decrease Duty cycle with 1 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #6 - FAIL.
+# Test case #7 - Key hold control - DOWN 70 ms to decrease Duty cycle to minimum (10 %)
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #7 - FAIL.
+# Test case #8 - Serial control - Up by sending U in ASCII, expecting 11 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #8 - FAIL.
+# Test case #9 - Serial control - Up by sending u in ASCII, expecting 12 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #9 - FAIL.
+# Test case #10 - Serial control - Off by sending 0 in ASCII, expecting 0 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #10 - FAIL.
+# Test case #11 - Serial control - ON by sending 1 in ASCII, expecting 12 % (remembered)
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #11 - FAIL.
+# Test case #12 - Serial control - DOWN by sending d in ASCII, expecting 11 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #12 - FAIL.
+# Test case #13 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 169518185 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 170018205 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 170518225 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 171018245 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 171518265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 172018285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 172518305 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #13 - FAIL.
+# Test case #14 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 173018325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 173518345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 174018365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 174518385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 175018405 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 175518425 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #14 - FAIL.
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 176018445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 176518465 ns  Iteration: 3  Instance: /testbench_top
+# Simulation ends
 vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:46:05 on Mar 01,2025
+# Start time: 23:11:15 on Mar 01,2025
 # vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -972,476 +672,1047 @@ vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjec
 # -- Loading entity serial_ctrl
 # -- Loading entity dc_disp_ctrl
 # -- Loading entity pwm_ctrl
-# End time: 14:46:05 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 23:11:15 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-run 2ms
-do ../../xd.txt
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pwm_module_top(str)
+run -all
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Simulation starts
+# Test case #0 - Check startup values - expect 0 %
+# ** Warning: Hundreds character invalid on serial interface.
+#    Time: 92805 ns  Iteration: 1  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       7 segment output duty cycle invalid data.
+#    Test case #0 - FAIL.
+# Test case #1 - Key control - ON - expect 100 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 1001265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 1501285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 2001305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 2501325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 3001345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 3501365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 4001385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 4501405 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - Outside tolerance!
+#    Test case #1 - FAIL.
+# Test case #2 - Key control - OFF - expect 0%
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #2 - FAIL.
+# Test case #3 - Key control - UP - should set Duty Cycle to 10%
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #3 - FAIL.
+# Test case #4 - Check 1kHz PWM frequency (+/- 1 Hz)
+#       Detected PWM frequency : 0 Hz
+#    Test case #4 - FAIL.
+# Test case #5 - Key hold control - UP 50 ms to ~15 % Duty cycle
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #5 - FAIL.
+# Test case #6 - Key control - DOWN 5 ms to decrease Duty cycle with 1 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #6 - FAIL.
+# Test case #7 - Key hold control - DOWN 70 ms to decrease Duty cycle to minimum (10 %)
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #7 - FAIL.
+# Test case #8 - Serial control - Up by sending U in ASCII, expecting 11 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #8 - FAIL.
+# Test case #9 - Serial control - Up by sending u in ASCII, expecting 12 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #9 - FAIL.
+# Test case #10 - Serial control - Off by sending 0 in ASCII, expecting 0 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #10 - FAIL.
+# Test case #11 - Serial control - ON by sending 1 in ASCII, expecting 12 % (remembered)
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #11 - FAIL.
+# Test case #12 - Serial control - DOWN by sending d in ASCII, expecting 11 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #12 - FAIL.
+# Test case #13 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 169518185 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 170018205 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 170518225 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 171018245 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 171518265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 172018285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 172518305 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #13 - FAIL.
+# Test case #14 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 173018325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 173518345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 174018365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 174518385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 175018405 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 175518425 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #14 - FAIL.
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 176018445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 176518465 ns  Iteration: 3  Instance: /testbench_top
+# Simulation ends
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:13:11 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 23:13:11 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:13:14 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 23:13:14 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.pwm_module_top(str)
 # Loading work.pwm_ctrl(rtl)
+run -all
 # GetModuleFileName: Det går inte att hitta den angivna modulen.
 # 
 # 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
-# Error in macro ./../../xd.txt line 61
-# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
-# 
-#     while executing
-# "force s_pwm_dc 98"
-force -deposit sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc 98 0
-run 8ms
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Simulation starts
+# Test case #0 - Check startup values - expect 0 %
+# ** Warning: Hundreds character invalid on serial interface.
+#    Time: 92805 ns  Iteration: 1  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       7 segment output duty cycle invalid data.
+#    Test case #0 - FAIL.
+# Test case #1 - Key control - ON - expect 100 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 1001265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 1501285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 2001305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 2501325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 3001345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 3501365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 4001385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 4501405 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - Outside tolerance!
+#    Test case #1 - FAIL.
+# Test case #2 - Key control - OFF - expect 0%
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #2 - FAIL.
+# Test case #3 - Key control - UP - should set Duty Cycle to 10%
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 9001425 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 9501445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 10001465 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 10501485 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 11001505 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 11501525 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 12001545 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 12501565 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 13001585 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 13501605 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 14001625 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 14501645 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 15001665 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 15501685 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 16001705 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 16501725 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #3 - FAIL.
+# Test case #4 - Check 1kHz PWM frequency (+/- 1 Hz)
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 17001745 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 17501765 ns  Iteration: 3  Instance: /testbench_top
+#       Detected PWM frequency : 0 Hz
+#    Test case #4 - FAIL.
+# Test case #5 - Key hold control - UP 50 ms to ~15 % Duty cycle
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 18001785 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 18501805 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 19001825 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 19501845 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 20001865 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 20501885 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 21001905 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 21501925 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 22001945 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 22501965 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 23001985 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 23502005 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 24002025 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 24502045 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 25002065 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 25502085 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 26002105 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 26502125 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 27002145 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 27502165 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 28002185 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 28502205 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 29002225 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 29502245 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 30002265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 30502285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 31002305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 31502325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 32002345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 32502365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 33002385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 33502405 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 34002425 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 34502445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 35002465 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 35502485 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 36002505 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 36502525 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 37002545 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 37502565 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 38002585 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 38502605 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 39002625 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 39502645 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 40002665 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 40502685 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 41002705 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 41502725 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 42002745 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 42502765 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 43002785 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 43502805 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 44002825 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 44502845 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 45002865 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 45502885 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 46002905 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 46502925 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 47002945 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 47502965 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 48002985 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 48503005 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 49003025 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 49503045 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 50003065 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 50503085 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 51003105 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 51503125 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 52003145 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 52503165 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 53003185 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 53503205 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 54003225 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 54503245 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 55003265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 55503285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 56003305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 56503325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 57003345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 57503365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 58003385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 58503405 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 59003425 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 59503445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 60003465 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 60503485 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 61003505 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 61503525 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 62003545 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 62503565 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 63003585 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 63503605 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 64003625 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 64503645 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 65003665 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 65503685 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 66003705 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 66503725 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 67003745 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 67503765 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 68003785 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 68503805 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 69003825 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 69503845 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 70003865 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 70503885 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 71003905 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 71503925 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 72003945 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 72503965 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - Outside tolerance!
+#    Test case #5 - FAIL.
+# Test case #6 - Key control - DOWN 5 ms to decrease Duty cycle with 1 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 73003985 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 73504005 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 74004025 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 74504045 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 75004065 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 75504085 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 76004105 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 76504125 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 77004145 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 77504165 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 78004185 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 78504205 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 79004225 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 79504245 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 80004265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 80504285 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 20% - Outside tolerance!
+#    Test case #6 - FAIL.
+# Test case #7 - Key hold control - DOWN 70 ms to decrease Duty cycle to minimum (10 %)
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 81004305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 81504325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 82004345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 82504365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 83004385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 83504405 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 84004425 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 84504445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 85004465 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 85504485 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 86004505 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 86504525 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 87004545 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 87504565 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 88004585 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 88504605 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 89004625 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 89504645 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 90004665 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 90504685 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 91004705 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 91504725 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 92004745 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 92504765 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 93004785 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 93504805 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 94004825 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 94504845 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 95004865 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 95504885 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 96004905 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 96504925 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 97004945 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 97504965 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 98004985 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 98505005 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 99005025 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 99505045 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 100005065 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 100505085 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 101005105 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 101505125 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 102005145 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 102505165 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 103005185 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 103505205 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 104005225 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 104505245 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 105005265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 105505285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 106005305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 106505325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 107005345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 107505365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 108005385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 108505405 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 109005425 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 109505445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 110005465 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 110505485 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 111005505 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 111505525 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 112005545 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 112505565 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 113005585 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 113505605 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 114005625 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 114505645 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 115005665 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 115505685 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 116005705 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 116505725 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 117005745 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 117505765 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 118005785 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 118505805 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 119005825 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 119505845 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 120005865 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 120505885 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 121005905 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 121505925 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 122005945 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 122505965 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 123005985 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 123506005 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 124006025 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 124506045 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 125006065 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 125506085 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 126006105 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 126506125 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 127006145 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 127506165 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 128006185 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 128506205 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 129006225 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 129506245 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 130006265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 130506285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 131006305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 131506325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 132006345 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 132506365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 133006385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 133506405 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 134006425 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 134506445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 135006465 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 135506485 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 136006505 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 136506525 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 137006545 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 137506565 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 138006585 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 138506605 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 139006625 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 139506645 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 140006665 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 140506685 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 141006705 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 141506725 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 142006745 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 142506765 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 143006785 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 143506805 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 144006825 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 144506845 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 145006865 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 145506885 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 146006905 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 146506925 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 147006945 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 147506965 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 148006985 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 148507005 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 149007025 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 149507045 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 150007065 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 150507085 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 151007105 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 151507125 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 152007145 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 152507165 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 153007185 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 153507205 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 11% - Outside tolerance!
+#    Test case #7 - FAIL.
+# Test case #8 - Serial control - Up by sending U in ASCII, expecting 11 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 154007225 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 154507245 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 155007265 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 155507285 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 156007305 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 156507325 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 157007345 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - Outside tolerance!
+#    Test case #8 - FAIL.
+# Test case #9 - Serial control - Up by sending u in ASCII, expecting 12 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 157507365 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 158007385 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 158507405 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 159007425 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 159507445 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 160007465 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 11% - Outside tolerance!
+#    Test case #9 - FAIL.
+# Test case #10 - Serial control - Off by sending 0 in ASCII, expecting 0 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 160507485 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 161007505 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 161507525 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 162007545 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 162507565 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 163007585 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 12% - Outside tolerance!
+#    Test case #10 - FAIL.
+# Test case #11 - Serial control - ON by sending 1 in ASCII, expecting 12 % (remembered)
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 163507605 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 164007625 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 164507645 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 165007665 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 165507685 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 166007705 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 11% - Outside tolerance!
+#    Test case #11 - FAIL.
+# Test case #12 - Serial control - DOWN by sending d in ASCII, expecting 11 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #12 - FAIL.
+# Test case #13 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 169594565 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 170094585 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 170594605 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 171094625 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 171594645 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 172094665 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #13 - FAIL.
+# Test case #14 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 172594685 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 173094705 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 173594725 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 174094745 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 174594765 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 175094785 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 175594805 ns  Iteration: 3  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #14 - FAIL.
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 176094825 ns  Iteration: 3  Instance: /testbench_top
+# ** Warning: RED LED indicating receive error is set high!
+#    Time: 176594845 ns  Iteration: 3  Instance: /testbench_top
+# Simulation ends
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:53:38 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# Start time: 23:19:04 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(40): near "signal": (vcom-1576) expecting ';'.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(53): Illegal target for signal assignment.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(53): (vcom-1136) Unknown identifier "s_dc_cn".
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(64): (vcom-1136) Unknown identifier "s_maxupdate_cn".
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(64): (vcom-1590) Bad expression in right operand of infix expression 'and'.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(64): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(65): Illegal target for signal assignment.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(65): (vcom-1136) Unknown identifier "s_maxupdate_cn".
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(65): (vcom-1136) Unknown identifier "s_maxupdate_cn".
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(67): near "current_dc": (vcom-1576) expecting THEN.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(68): Illegal target for signal assignment.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(68): (vcom-1136) Unknown identifier "s_maxupdate_cn".
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(72): (vcom-1136) Unknown identifier "s_dc_cn".
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(72): Type error resolving infix expression ">=" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(83): Illegal target for signal assignment.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(83): (vcom-1136) Unknown identifier "s_dc_cn".
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(87): Illegal target for signal assignment.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(87): (vcom-1136) Unknown identifier "s_dc_cn".
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(91): near "if": (vcom-1576) expecting PROCESS.
-# End time: 14:53:38 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 19, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:54:05 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(64): Cannot read output "current_dc_update".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(67): near "current_dc": (vcom-1576) expecting THEN.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(91): near "if": (vcom-1576) expecting PROCESS.
-# End time: 14:54:06 on Mar 01,2025, Elapsed time: 0:00:01
-# Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:55:42 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(69): near "current_dc": (vcom-1576) expecting THEN.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(93): near "if": (vcom-1576) expecting PROCESS.
-# End time: 14:55:42 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:55:56 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(69): Enumeration literal '0' is not of type std.STANDARD.INTEGER.
-# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(22): Nonresolved signal 'current_dc' has multiple sources.
-#   Drivers:
-#     C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(52):Process line__52
-#        Driven at:
-#           C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(69)
-#     C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(49):Conditional signal assignment line__49
-# ** Note: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(202): VHDL Compiler exiting
-# End time: 14:55:56 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:56:29 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# End time: 14:56:29 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:56:33 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
+# -- Loading package MATH_REAL
+# -- Loading package testbench_pkg
+# -- Compiling entity testbench_top
+# -- Compiling architecture bhv of testbench_top
+# -- Loading entity pwm_module_top
 # -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 14:56:33 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-do ../../xd.txt
-# Loading work.pwm_module_top(str)
-# Loading work.pwm_ctrl(rtl)
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
-# Error in macro ./../../xd.txt line 61
-# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
-# 
-#     while executing
-# "force s_pwm_dc 98"
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+# ** Error (suppressible): C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd(546): (vcom-1272) Length of formal "ledr" is 10; length of actual is 2.
+# ** Note: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd(818): VHDL Compiler exiting
+# End time: 23:19:04 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:57:28 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# Start time: 23:20:23 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/testbench_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity key_ctrl
-# -- Compiling architecture rtl of key_ctrl
-# End time: 14:57:28 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:57:30 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity dc_disp_ctrl
-# -- Compiling architecture rtl of dc_disp_ctrl
-# End time: 14:57:30 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:57:32 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# End time: 14:57:32 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:57:33 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
+# -- Loading package MATH_REAL
+# -- Loading package testbench_pkg
+# -- Compiling entity testbench_top
+# -- Compiling architecture bhv of testbench_top
+# -- Loading entity pwm_module_top
 # -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 14:57:33 on Mar 01,2025, Elapsed time: 0:00:00
+# End time: 23:20:23 on Mar 01,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-do ../../xd.txt
-# Loading work.pwm_module_top(str)
-# Loading work.key_ctrl(rtl)
-# Loading work.dc_disp_ctrl(rtl)
-# Loading work.pwm_ctrl(rtl)
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench_top(bhv)
+run -all
 # GetModuleFileName: Det går inte att hitta den angivna modulen.
 # 
 # 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
-# Error in macro ./../../xd.txt line 61
-# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
-# 
-#     while executing
-# "force s_pwm_dc 98"
-force -deposit sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc 98 0
-run 8ms
-run 8ms
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_clk_cn
-add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_clk_cn_max
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_dc_cn
-add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_dc_cn
-do ../../xd.txt
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:09:52 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
-# -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 15:09:52 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-do ../../xd.txt
-# Loading work.pwm_module_top(str)
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:10:14 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# End time: 15:10:14 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:10:15 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
-# -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 15:10:15 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-do ../../xd.txt
-# Loading work.pwm_module_top(str)
-# Loading work.pwm_ctrl(rtl)
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:10:42 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
-# -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 15:10:42 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:10:44 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_ctrl
-# -- Compiling architecture rtl of pwm_ctrl
-# End time: 15:10:44 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:10:45 on Mar 01,2025
-# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pwm_module_top
-# -- Compiling architecture str of pwm_module_top
-# -- Loading entity startup_reset
-# -- Loading entity reset_ctrl
-# -- Loading entity key_ctrl
-# -- Loading entity serial_uart
-# -- Loading entity serial_ctrl
-# -- Loading entity dc_disp_ctrl
-# -- Loading entity pwm_ctrl
-# End time: 15:10:45 on Mar 01,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-do ../../xd.txt
-# Loading work.pwm_module_top(str)
-# Loading work.pwm_ctrl(rtl)
-# GetModuleFileName: Det går inte att hitta den angivna modulen.
-# 
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-# End time: 15:16:24 on Mar 01,2025, Elapsed time: 1:45:25
-# Errors: 0, Warnings: 0
+# Simulation starts
+# Test case #0 - Check startup values - expect 0 %
+# ** Warning: Hundreds character invalid on serial interface.
+#    Time: 92805 ns  Iteration: 1  Instance: /testbench_top
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       7 segment output duty cycle invalid data.
+#    Test case #0 - FAIL.
+# Test case #1 - Key control - ON - expect 100 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 10% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - Outside tolerance!
+#    Test case #1 - FAIL.
+# Test case #2 - Key control - OFF - expect 0%
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #2 - FAIL.
+# Test case #3 - Key control - UP - should set Duty Cycle to 10%
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 10% - OK!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #3 - FAIL.
+# Test case #4 - Check 1kHz PWM frequency (+/- 1 Hz)
+#       Detected PWM frequency : 2000 Hz
+#    Test case #4 - FAIL.
+# Test case #5 - Key hold control - UP 50 ms to ~15 % Duty cycle
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 20% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 10% - Outside tolerance!
+#    Test case #5 - FAIL.
+# Test case #6 - Key control - DOWN 5 ms to decrease Duty cycle with 1 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 19% - OK!
+#       Detected 7 segment output duty cycle : 20% - OK!
+#    Test case #6 - FAIL.
+# Test case #7 - Key hold control - DOWN 70 ms to decrease Duty cycle to minimum (10 %)
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 10% - OK!
+#       Detected 7 segment output duty cycle : 11% - Outside tolerance!
+#    Test case #7 - FAIL.
+# Test case #8 - Serial control - Up by sending U in ASCII, expecting 11 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 11% - OK!
+#       Detected 7 segment output duty cycle : 10% - Outside tolerance!
+#    Test case #8 - FAIL.
+# Test case #9 - Serial control - Up by sending u in ASCII, expecting 12 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 12% - OK!
+#       Detected 7 segment output duty cycle : 11% - Outside tolerance!
+#    Test case #9 - FAIL.
+# Test case #10 - Serial control - Off by sending 0 in ASCII, expecting 0 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 11% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 12% - Outside tolerance!
+#    Test case #10 - FAIL.
+# Test case #11 - Serial control - ON by sending 1 in ASCII, expecting 12 % (remembered)
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 10% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 11% - Outside tolerance!
+#    Test case #11 - FAIL.
+# Test case #12 - Serial control - DOWN by sending d in ASCII, expecting 11 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 0% - Outside tolerance!
+#       Detected 7 segment output duty cycle : 0% - Outside tolerance!
+#    Test case #12 - FAIL.
+# Test case #13 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 10% - OK!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #13 - FAIL.
+# Test case #14 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+#       Serial interface DC readout fails.
+#       Detected PWM output duty cycle : 10% - OK!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #14 - FAIL.
+# Simulation ends

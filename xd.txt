@@ -51,7 +51,7 @@ force key_n "1101"
 run 1 us
 
 
-run 30 us
+run 600 us
 
 
 

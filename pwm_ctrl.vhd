@@ -35,7 +35,6 @@ architecture rtl of pwm_ctrl is
 	constant s_clk_cn_max : integer := s_clk_freq/2000;
    constant factor        : integer := s_clk_cn_max / 100;   -- 250
 	signal s_clk_cn : integer range 0 to s_clk_cn_max + 1 := 0;
-	signal tick : std_logic := '0';
 	signal s_dc_cn : integer range 0 to s_clk_cn_max + 1;
 	signal s_maxupdate_cn : integer range 0 to 10;
 	
@@ -43,7 +42,6 @@ architecture rtl of pwm_ctrl is
 	signal s_pwm_dc_last : integer range 0 to 100 := 0;
 	signal s_isEnabled : std_logic := '0'; 
 	signal s_dc_changed : std_logic :=  '0';
-	signal s_wasEnabled_LastCylce : boolean := false;
  
 begin
 	current_dc <= s_pwm_dc when s_isEnabled = '1' else 0;
@@ -53,22 +51,8 @@ begin
 	begin
 		if reset_n = '0' then
 			s_dc_cn      <= factor * 100;
-			s_pwm_dc_last   <= 100;
-			ledr            <= '0';
-			s_dc_changed <= '0';
 		elsif(rising_edge(clk))then
 			
-			if(s_wasEnabled_LastCylce /= (s_isEnabled = '1'))then
-				s_wasEnabled_LastCylce <= (s_isEnabled = '1');
-				s_dc_changed <= '1';
-			end if;	
-			
-			if(s_dc_changed = '1' and s_maxupdate_cn  < 10) then
-				s_maxupdate_cn <= s_maxupdate_cn + 1;
-			elsif(s_dc_changed = '1') then
-				s_dc_changed <= '0';
-				s_maxupdate_cn <= 0;
-			end if;
 			
 			if(s_isEnabled = '1') then-- main pwm part that actually flickers the ledr
 				if(s_clk_cn >= s_dc_cn)then
@@ -79,16 +63,15 @@ begin
 		
 		
 		
-				if(s_pwm_dc_last /= s_pwm_dc)then 
-					s_dc_changed <= '1';
-					s_pwm_dc_last <= s_pwm_dc;
+				if(s_dc_changed <= '1')then
 					s_dc_cn <= (factor*s_pwm_dc);	
 				end if;
 				
 			else
 				ledr     <= '0';
-				s_dc_changed <= '1';	
 			end if;	
+			
+			
 		end if;
 
 
@@ -96,21 +79,18 @@ begin
 
 	end process;
 
-	--handle tick every 1ms and dc timings
+	--handle dc timings
 	process(clk, reset_n)
 	begin
 		if reset_n = '0' then
-			tick       <= '0';
 			s_clk_cn <= 0;
 		elsif(rising_edge(clk))then
 			
 			if(s_isEnabled = '1')then
 			
 				if(s_clk_cn_max <= s_clk_cn)then
-					tick <= '1';
 					s_clk_cn <= 0;
 				else
-					tick <= '0';
 					s_clk_cn <= s_clk_cn +1;
 		
 				end if;
@@ -128,38 +108,51 @@ begin
 			s_isEnabled <= '0';
 			s_pwm_dc    <= 10;
 		elsif(rising_edge(clk))then
+			if(key_on = '1' or key_off = '1' or serial_on = '1' or serial_off = '1' or key_up = '1' or key_down = '1' or serial_up = '1' or serial_down = '1')then
 		
-			if(key_on = '1')then
-				s_isEnabled <= '1';
-			elsif(key_off = '1')then
-				s_isEnabled <= '0';
-			elsif(serial_on = '1') then
-				s_isEnabled <= '1';
-			elsif(serial_off = '1') then
-				s_isEnabled <= '0';
-			end if;
-			
-			if(key_up = '1' and s_pwm_dc < 100)then
-				if(s_isEnabled = '0')then
+					
+				if(key_on = '1')then
+					s_isEnabled <= '1';
+					s_dc_changed <= '1';
+				elsif(key_off = '1')then
 					s_isEnabled <= '0';
-					s_pwm_dc <= 10;
-				else
-					s_pwm_dc <= s_pwm_dc +1;
-				end if;
-			elsif(key_down = '1' and s_pwm_dc > 10)then
-				s_pwm_dc <= s_pwm_dc -1;
-			elsif(serial_up = '1' and s_pwm_dc < 100)then
-				if(s_isEnabled = '0')then
+					s_dc_changed <= '1';
+				elsif(serial_on = '1') then
+					s_isEnabled <= '1';
+					s_dc_changed <= '1';
+				elsif(serial_off = '1') then
 					s_isEnabled <= '0';
-					s_pwm_dc <= 10;
+					s_dc_changed <= '1';
 				end if;
-				s_pwm_dc <= s_pwm_dc +1;
-			elsif(serial_down = '1' and s_pwm_dc > 10)then
-				s_pwm_dc <= s_pwm_dc -1;			
+				
+				if(key_up = '1' and s_pwm_dc < 100)then
+					if(s_isEnabled = '0')then
+						s_isEnabled <= '1';
+						s_pwm_dc <= 10;
+					else
+						s_dc_changed <= '1';
+						s_pwm_dc <= s_pwm_dc +1;
+					end if;
+				elsif(key_down = '1' and s_pwm_dc > 10)then
+					s_pwm_dc <= s_pwm_dc -1;
+					s_dc_changed <= '1';
+				elsif(serial_up = '1' and s_pwm_dc < 100)then
+					if(s_isEnabled = '0')then
+						s_isEnabled <= '1';
+						s_pwm_dc <= 10;
+					else
+						s_pwm_dc <= s_pwm_dc +1;
+						s_dc_changed <= '1';
+					end if;
+				elsif(serial_down = '1' and s_pwm_dc > 10)then
+					s_pwm_dc <= s_pwm_dc -1;	
+					s_dc_changed <= '1';
+				end if;
+		
+			else
+				s_dc_changed <= '0';
 			end if;
-		
-			
-		
+
 		end if;
 	
 	

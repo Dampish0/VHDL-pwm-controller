@@ -85,8 +85,6 @@ architecture bhv of testbench_top is
    signal key_down_n             : std_logic;
    signal saved_detected_dc      : natural range 0 to 100;
 
-	signal temps : std_logic_vector(9 downto 0) := "0000000000";
-	
    procedure pr_write(v_input_str : in string) is
       variable v_line : line;
    begin
@@ -157,8 +155,7 @@ architecture bhv of testbench_top is
    end function fn_write_dc_status;
 
 begin -- architecture
-ledr(0) <= temps(1);
-ledg(0) <= temps(0);
+
 
    assert not (ledr(0) = '1')
       report "RED LED indicating receive error is set high!"
@@ -524,11 +521,11 @@ ledg(0) <= temps(0);
    generic map(
       g_simulation            => true)
    port map(
-      clk                => clock_50,
+      clock_50                => clock_50,
 
       -- Serial interface
-      rx              => fpga_in_rx,
-      tx             => fpga_out_tx,
+      fpga_in_rx              => fpga_in_rx,
+      fpga_out_tx             => fpga_out_tx,
 
       -- Key pushbutton inputs
       key_n                   => key_n,
@@ -537,13 +534,15 @@ ledg(0) <= temps(0);
       --sw                      => sw, -- not used
 
       -- 7 Segment display output
-      hex0                 => hex0_n,
-      hex1                 => hex1_n,
-      hex2                 => hex2_n,
+      hex0_n                  => hex0_n,
+      hex1_n                  => hex1_n,
+      hex2_n                  => hex2_n,
       --hex3_n                  => hex3_n,   -- not used
 
+      -- Green led outputs
+      ledg                    => ledg,
       -- Red led outputs
-      ledr                    => temps);
+      ledr                    => ledr);
 
    i_tb_serial_uart : entity work.serial_uart
    generic map(

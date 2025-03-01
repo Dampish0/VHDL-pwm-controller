@@ -19,7 +19,7 @@ port(
 	key_n : in std_logic_vector(3 downto 0);
 
 	--error from uart and pwm result
-	ledr : out std_logic_vector(1 downto 0);
+	ledr : out std_logic_vector(9 downto 0);
 	
 	--uart code
 	rx   : in  std_logic;
@@ -85,6 +85,7 @@ begin
 --
 ----------------------------------------------------------------------------------------------
 
+	ledr(9 downto 2) <= (others => '0');
 	Complete_reset_n <= not Complete_reset;
 	create_pll : if(not (g_simulation)) generate
 
