@@ -1,0 +1,1447 @@
+# Reading pref.tcl
+# do pwm_module_top_run_msim_rtl_vhdl.do
+# if ![file isdirectory pwm_module_top_iputf_libs] {
+# 	file mkdir pwm_module_top_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vcom "C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pll_altera_sim/pll_altera.vho"
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pll_altera_sim/pll_altera.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Compiling entity pll_altera
+# -- Compiling architecture RTL of pll_altera
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/startup_reset.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/startup_reset.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity startup_reset
+# -- Compiling architecture rtl of startup_reset
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_uart_rtl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_uart_rtl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity serial_uart
+# -- Compiling architecture rtl of serial_uart
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity serial_ctrl
+# -- Compiling architecture rtl of serial_ctrl
+# ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(40): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(43): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(46): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(48): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(50): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd(52): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/reset_ctrl_rtl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/reset_ctrl_rtl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reset_ctrl
+# -- Compiling architecture rtl of reset_ctrl
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity key_ctrl
+# -- Compiling architecture rtl of key_ctrl
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:53 on Mar 01,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 13:30:53 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.pwm_module_top
+# vsim work.pwm_module_top 
+# Start time: 13:30:59 on Mar 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pwm_module_top(str)
+# Loading work.startup_reset(rtl)
+# Loading altera_lnsim.altera_lnsim_components
+# Loading work.pll_altera(rtl)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_lnsim_functions
+# Loading altera_lnsim.altera_pll
+# Loading altera_lnsim.dps_extra_kick
+# Loading altera_lnsim.dprio_init
+# Loading altera_lnsim.altera_generic_pll_functions
+# Loading altera_lnsim.generic_pll
+# Loading work.reset_ctrl(rtl)
+# Loading work.key_ctrl(rtl)
+# Loading work.serial_uart(rtl)
+# Loading work.serial_ctrl(rtl)
+# Loading work.dc_disp_ctrl(rtl)
+# Loading work.pwm_ctrl(rtl)
+add wave -position end  sim:/pwm_module_top/g_simulation
+add wave -position end  sim:/pwm_module_top/clk
+add wave -position end  sim:/pwm_module_top/hex0
+add wave -position end  sim:/pwm_module_top/hex1
+add wave -position end  sim:/pwm_module_top/hex2
+add wave -position end  sim:/pwm_module_top/key_n
+add wave -position end  sim:/pwm_module_top/ledr
+add wave -position end  sim:/pwm_module_top/rx
+add wave -position end  sim:/pwm_module_top/tx
+add wave -position end  sim:/pwm_module_top/action_signals
+add wave -position end  sim:/pwm_module_top/uart_tx_valid
+add wave -position end  sim:/pwm_module_top/uart_tx_ready
+add wave -position end  sim:/pwm_module_top/uart_tx_data
+add wave -position end  sim:/pwm_module_top/recieved_data
+add wave -position end  sim:/pwm_module_top/recieved_data_valid
+add wave -position end  sim:/pwm_module_top/s_dc
+add wave -position end  sim:/pwm_module_top/s_dc_updated
+add wave -position end  sim:/pwm_module_top/Complete_reset
+add wave -position end  sim:/pwm_module_top/Complete_reset_n
+add wave -position end  sim:/pwm_module_top/s_startup_reset
+add wave -position end  sim:/pwm_module_top/clk_50
+add wave -position end  sim:/pwm_module_top/pll_locked
+force g_simulation true
+# ** UI-Msg: (vish-4009) Cannot force 'g_simulation'.
+# 
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+# ** Fatal: (vsim-3421) Value 11 is out of range 0 to 10.
+#    Time: 196930 ns  Iteration: 4  Process: /pwm_module_top/i_dc_disp_a/p_display File: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd Line: 65
+# Fatal error in Process p_display at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd line 65
+# 
+# HDL call sequence:
+# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 65 Subprogram fn_create_bcd
+# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 125 Process p_display
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 65 Subprogram fn_create_bcd
+# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 125 Process p_display
+# 
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:22 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# End time: 13:33:22 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:33 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity key_ctrl
+# -- Compiling architecture rtl of key_ctrl
+# End time: 13:33:33 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.key_ctrl(rtl)
+# Loading work.dc_disp_ctrl(rtl)
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# ** Fatal: (vsim-3421) Value 11 is out of range 0 to 10.
+#    Time: 196930 ns  Iteration: 4  Process: /pwm_module_top/i_dc_disp_a/p_display File: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd Line: 65
+# Fatal error in Process p_display at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd line 65
+# 
+# HDL call sequence:
+# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 65 Subprogram fn_create_bcd
+# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 125 Process p_display
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 65 Subprogram fn_create_bcd
+# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 125 Process p_display
+# 
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:47 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# End time: 13:33:47 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.dc_disp_ctrl(rtl)
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# ** Fatal: (vsim-3421) Value 11 is out of range 0 to 10.
+#    Time: 196930 ns  Iteration: 4  Process: /pwm_module_top/i_dc_disp_a/p_display File: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd Line: 64
+# Fatal error in Process p_display at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd line 64
+# 
+# HDL call sequence:
+# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 64 Subprogram fn_create_bcd
+# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 124 Process p_display
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 64 Subprogram fn_create_bcd
+# called from  C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 124 Process p_display
+# 
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:34:37 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# End time: 13:34:37 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.dc_disp_ctrl(rtl)
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+run 1 ms
+add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/s_clk_cn
+add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/s_target_freq
+add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/prev_key_n_2r
+add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/key_n_2r
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+run 100us
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/s_output
+add wave -position end  sim:/pwm_module_top/i_key_ctrl_a/s_output
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:57:52 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# End time: 13:57:52 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:58:04 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity key_ctrl
+# -- Compiling architecture rtl of key_ctrl
+# End time: 13:58:04 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:58:06 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 13:58:06 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:58:07 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 13:58:07 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.key_ctrl(rtl)
+# Loading work.dc_disp_ctrl(rtl)
+# Loading work.pwm_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+add wave -position end  sim:/pwm_module_top/s_dc_updated
+run 20ms
+run 5ms
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:21:50 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity key_ctrl
+# -- Compiling architecture rtl of key_ctrl
+# End time: 14:21:50 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:21:52 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 14:21:52 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.key_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:24:09 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity key_ctrl
+# -- Compiling architecture rtl of key_ctrl
+# End time: 14:24:09 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:24:11 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 14:24:11 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.key_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+add wave -position end  sim:/pwm_module_top/i_dc_disp_a/s_bcd_result
+add wave -position end  sim:/pwm_module_top/i_dc_disp_a/s_bcd_result
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc
+force s_pwm_dc 98
+run 10us
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+run 20ms
+add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_isEnabled
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:02 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 14:34:02 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:03 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): (vcom-1581) No feasible entries for infix operator '/='.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): Type error resolving infix expression "/=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(59): near "s_wasEnabled_LastCyl": (vcom-1576) expecting GENERATE or THEN or USE.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(85): near "if": (vcom-1576) expecting PROCESS.
+# End time: 14:34:03 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:04 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity key_ctrl
+# -- Compiling architecture rtl of key_ctrl
+# End time: 14:34:05 on Mar 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:06 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# End time: 14:34:06 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:08 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): (vcom-1581) No feasible entries for infix operator '/='.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): Type error resolving infix expression "/=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(59): near "s_wasEnabled_LastCyl": (vcom-1576) expecting GENERATE or THEN or USE.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(85): near "if": (vcom-1576) expecting PROCESS.
+# End time: 14:34:08 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:30 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): (vcom-1581) No feasible entries for infix operator '/='.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(58): near "=": (vcom-1576) expecting ')'.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(85): near "if": (vcom-1576) expecting PROCESS.
+# End time: 14:34:30 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:45 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(59): near "s_wasEnabled_LastCyl": (vcom-1576) expecting GENERATE or THEN or USE.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(85): near "if": (vcom-1576) expecting PROCESS.
+# End time: 14:34:45 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:35:03 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(59): Illegal sequential statement.
+# ** Note: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(194): VHDL Compiler exiting
+# End time: 14:35:03 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:35:24 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 14:35:24 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:35:27 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 14:35:27 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:35:29 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 14:35:29 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.key_ctrl(rtl)
+# Loading work.dc_disp_ctrl(rtl)
+# Loading work.pwm_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+force s_pwm_dc 98
+# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
+# 
+force s_pwm_dc 98
+# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
+# 
+force -deposit sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc 98 0
+run 10ns
+run 2ms
+run 2ms
+run 1ms
+run 1ms
+run 2ms
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:46:02 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(108): (vcom-1588) Range cannot be actual parameter
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(108): Expecting FUNCTION call returning std.STANDARD.INTEGER where PROCEDURE call was found.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(109): (vcom-1588) Range cannot be actual parameter
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(109): Expecting FUNCTION call returning std.STANDARD.INTEGER where PROCEDURE call was found.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(110): (vcom-1588) Range cannot be actual parameter
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(110): Expecting FUNCTION call returning std.STANDARD.INTEGER where PROCEDURE call was found.
+# ** Note: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd(160): VHDL Compiler exiting
+# End time: 14:46:02 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:46:03 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 14:46:04 on Mar 01,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:46:05 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 14:46:05 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run 2ms
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.pwm_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
+# Error in macro ./../../xd.txt line 61
+# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
+# 
+#     while executing
+# "force s_pwm_dc 98"
+force -deposit sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc 98 0
+run 8ms
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:38 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(40): near "signal": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(53): Illegal target for signal assignment.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(53): (vcom-1136) Unknown identifier "s_dc_cn".
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(64): (vcom-1136) Unknown identifier "s_maxupdate_cn".
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(64): (vcom-1590) Bad expression in right operand of infix expression 'and'.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(64): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(65): Illegal target for signal assignment.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(65): (vcom-1136) Unknown identifier "s_maxupdate_cn".
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(65): (vcom-1136) Unknown identifier "s_maxupdate_cn".
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(67): near "current_dc": (vcom-1576) expecting THEN.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(68): Illegal target for signal assignment.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(68): (vcom-1136) Unknown identifier "s_maxupdate_cn".
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(72): (vcom-1136) Unknown identifier "s_dc_cn".
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(72): Type error resolving infix expression ">=" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(83): Illegal target for signal assignment.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(83): (vcom-1136) Unknown identifier "s_dc_cn".
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(87): Illegal target for signal assignment.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(87): (vcom-1136) Unknown identifier "s_dc_cn".
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(91): near "if": (vcom-1576) expecting PROCESS.
+# End time: 14:53:38 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 19, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:54:05 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(64): Cannot read output "current_dc_update".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(67): near "current_dc": (vcom-1576) expecting THEN.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(91): near "if": (vcom-1576) expecting PROCESS.
+# End time: 14:54:06 on Mar 01,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:55:42 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(69): near "current_dc": (vcom-1576) expecting THEN.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(93): near "if": (vcom-1576) expecting PROCESS.
+# End time: 14:55:42 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:55:56 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(69): Enumeration literal '0' is not of type std.STANDARD.INTEGER.
+# ** Error: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(22): Nonresolved signal 'current_dc' has multiple sources.
+#   Drivers:
+#     C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(52):Process line__52
+#        Driven at:
+#           C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(69)
+#     C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(49):Conditional signal assignment line__49
+# ** Note: C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd(202): VHDL Compiler exiting
+# End time: 14:55:56 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:29 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 14:56:29 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:33 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 14:56:33 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.pwm_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
+# Error in macro ./../../xd.txt line 61
+# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
+# 
+#     while executing
+# "force s_pwm_dc 98"
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:57:28 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity key_ctrl
+# -- Compiling architecture rtl of key_ctrl
+# End time: 14:57:28 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:57:30 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dc_disp_ctrl
+# -- Compiling architecture rtl of dc_disp_ctrl
+# End time: 14:57:30 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:57:32 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 14:57:32 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:57:33 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 14:57:33 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.key_ctrl(rtl)
+# Loading work.dc_disp_ctrl(rtl)
+# Loading work.pwm_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
+# Error in macro ./../../xd.txt line 61
+# ** UI-Msg (suppressible): (vsim-4008) Object 's_pwm_dc' not found.
+# 
+#     while executing
+# "force s_pwm_dc 98"
+force -deposit sim:/pwm_module_top/i_pwm_ctrl_a/s_pwm_dc 98 0
+run 8ms
+run 8ms
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_clk_cn
+add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_clk_cn_max
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_dc_cn
+add wave -position end  sim:/pwm_module_top/i_pwm_ctrl_a/s_dc_cn
+do ../../xd.txt
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:09:52 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 15:09:52 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:10:14 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 15:10:14 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:10:15 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 15:10:15 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.pwm_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:10:42 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 15:10:42 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:10:44 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 15:10:44 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:10:45 on Mar 01,2025
+# vcom -reportprogress 300 -work work C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_module_top
+# -- Compiling architecture str of pwm_module_top
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_uart
+# -- Loading entity serial_ctrl
+# -- Loading entity dc_disp_ctrl
+# -- Loading entity pwm_ctrl
+# End time: 15:10:45 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../xd.txt
+# Loading work.pwm_module_top(str)
+# Loading work.pwm_ctrl(rtl)
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = pwm_module_top.create_pll.i_pll_a.pll_altera_altera_pll_altera_pll_i_1557.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 100 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 5000.000000
+# Info: output_clock_low_period = 5000.000000
+# End time: 15:16:24 on Mar 01,2025, Elapsed time: 1:45:25
+# Errors: 0, Warnings: 0

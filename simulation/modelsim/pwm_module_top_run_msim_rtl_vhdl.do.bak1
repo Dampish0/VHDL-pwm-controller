@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/School Projects/digitalTEKNIK/lab72/startup_reset.vhd}
+vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/School Projects/digitalTEKNIK/lab72/serial_uart_rtl.vhd}
+vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/School Projects/digitalTEKNIK/lab72/serial_ctrl.vhd}
+vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/School Projects/digitalTEKNIK/lab72/reset_ctrl_rtl.vhd}
+vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/School Projects/digitalTEKNIK/lab72/pwm_ctrl.vhd}
+vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/School Projects/digitalTEKNIK/lab72/key_ctrl.vhd}
+vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/School Projects/digitalTEKNIK/lab72/dc_disp_ctrl.vhd}
+vcom -93 -work work {C:/Users/elias/Documents/_MAIN_/School Projects/digitalTEKNIK/lab72/pwm_module_top.vhd}
+

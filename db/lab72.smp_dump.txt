@@ -1,0 +1,15 @@
+
+State Machine - |pwm_module_top|serial_uart:i_serial_uart_a|tx_state
+Name tx_state.s_stop_bit tx_state.s_parity tx_state.s_tx_data tx_state.s_start_bit tx_state.s_idle 
+tx_state.s_idle 0 0 0 0 0 
+tx_state.s_start_bit 0 0 0 1 1 
+tx_state.s_tx_data 0 0 1 0 1 
+tx_state.s_parity 0 1 0 0 1 
+tx_state.s_stop_bit 1 0 0 0 1 
+
+State Machine - |pwm_module_top|serial_uart:i_serial_uart_a|rx_state
+Name rx_state.s_stop_bit rx_state.s_parity rx_state.s_rx_data rx_state.s_idle 
+rx_state.s_idle 0 0 0 0 
+rx_state.s_rx_data 0 0 1 1 
+rx_state.s_parity 0 1 0 1 
+rx_state.s_stop_bit 1 0 0 1 

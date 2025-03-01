@@ -1,0 +1,399 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/simulation/modelsim
+Edc_disp_ctrl
+Z1 w1740837444
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 42
+R0
+Z5 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+Z6 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd
+l0
+L6 1
+V3CQn_cEQ><Ul96Y[JXTf81
+!s100 l_BeHV[@Fj;RU`3Cz7MM?1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1740837450
+!i10b 1
+Z9 !s108 1740837450.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd|
+Z11 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/dc_disp_ctrl.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 12 dc_disp_ctrl 0 22 3CQn_cEQ><Ul96Y[JXTf81
+!i122 42
+l96
+L25 136
+V8lf4ez_@?TNCBh9enzkWW0
+!s100 UgToof_V4GQNAUnak3Sj:3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ekey_ctrl
+Z15 w1740835443
+R2
+R3
+R4
+!i122 41
+R0
+Z16 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+Z17 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd
+l0
+L6 1
+V^X@ofHM6QQ[kPO:LGG7no1
+!s100 Qf`VV4STZG>bdo`=md_Oe0
+R7
+32
+Z18 !s110 1740837448
+!i10b 1
+Z19 !s108 1740837448.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd|
+Z21 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/key_ctrl.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z22 DEx4 work 8 key_ctrl 0 22 ^X@ofHM6QQ[kPO:LGG7no1
+!i122 41
+l41
+L21 93
+Voej[`kE;oi_HBjQiZQ:Jo1
+!s100 nCD8Jl^nIlV1c`Y^nBL^o1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Epll_altera
+Z23 w1740753821
+R3
+R4
+Z24 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+!i122 0
+R0
+Z25 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pll_altera_sim/pll_altera.vho
+Z26 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pll_altera_sim/pll_altera.vho
+l0
+L34 1
+V2QH;ZVUlFP;GR2GJ8b>gR3
+!s100 :ZgW@n4gS;ZZo@`@m1?2F2
+R7
+32
+Z27 !s110 1740832253
+!i10b 1
+Z28 !s108 1740832253.000000
+Z29 !s90 -reportprogress|300|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pll_altera_sim/pll_altera.vho|
+Z30 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pll_altera_sim/pll_altera.vho|
+!i113 1
+R13
+Artl
+R3
+R4
+R24
+DEx4 work 10 pll_altera 0 22 2QH;ZVUlFP;GR2GJ8b>gR3
+!i122 0
+l53
+L46 264
+V0AN?;ZnBP^XX9=:zTeH8i2
+!s100 d:zFfgl:FF6WeeH^igd>G2
+R7
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+Epwm_ctrl
+Z31 w1740838236
+R2
+R3
+R4
+!i122 49
+R0
+Z32 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+Z33 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd
+l0
+L6 1
+Vm1dC^e==EiMWaYa9lSJ3O2
+!s100 `K[X=U@XfcO=e;gQO>]fo2
+R7
+32
+Z34 !s110 1740838244
+!i10b 1
+Z35 !s108 1740838244.000000
+Z36 !s90 -reportprogress|300|-work|work|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd|
+Z37 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_ctrl.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z38 DEx4 work 8 pwm_ctrl 0 22 m1dC^e==EiMWaYa9lSJ3O2
+!i122 49
+l48
+L31 171
+V0[hi5:fXg]4b?12KU;ZQZ0
+!s100 A<L`VX@kea=N>8`7:eA^:2
+R7
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R12
+R13
+Epwm_module_top
+Z39 w1740833880
+R2
+R3
+R4
+!i122 50
+R0
+Z40 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+Z41 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd
+l0
+L6 1
+V;3bmh>m^fEPIVe;?FnM8B1
+!s100 WIkfAWL_PEc8XmKe4B;S:0
+R7
+32
+Z42 !s110 1740838245
+!i10b 1
+Z43 !s108 1740838245.000000
+Z44 !s90 -reportprogress|300|-work|work|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd|
+Z45 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/pwm_module_top.vhd|
+!i113 1
+R12
+R13
+Astr
+R38
+R14
+Z46 DEx4 work 11 serial_ctrl 0 22 8O5IGQFFo^=ckB=VD8m=?1
+Z47 DEx4 work 11 serial_uart 0 22 ZY@>YP;RmKT:hPY[RR_3n1
+R22
+Z48 DEx4 work 10 reset_ctrl 0 22 1:Z5Og7@VjAbValMHF2B]3
+Z49 DEx4 work 13 startup_reset 0 22 LTGiZ>?z^];=Y^S]`T7Nl2
+R2
+R3
+R4
+Z50 DEx4 work 14 pwm_module_top 0 22 ;3bmh>m^fEPIVe;?FnM8B1
+!i122 50
+l76
+Z51 L32 208
+Z52 V9ljEhf3BDD1aWQ4LKzWQ?0
+Z53 !s100 :G5WTXe3]d?Fb5AObF]kN0
+R7
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R12
+R13
+Ereset_ctrl
+Z54 w1740753818
+R3
+R4
+!i122 4
+R0
+Z55 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/reset_ctrl_rtl.vhd
+Z56 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/reset_ctrl_rtl.vhd
+l0
+L17 1
+V1:Z5Og7@VjAbValMHF2B]3
+!s100 BXLHmPz2<BTjQli56_zeM0
+R7
+31
+R27
+!i10b 1
+R28
+Z57 !s90 -reportprogress|300|-93|-work|work|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/reset_ctrl_rtl.vhd|
+Z58 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/reset_ctrl_rtl.vhd|
+!i113 1
+Z59 o-93 -work work
+R13
+Artl
+R3
+R4
+R48
+!i122 4
+l31
+L29 28
+V9Tc1^1iH53@3HfI=b]Y4>1
+!s100 zN6A5bX6z^iCg[9DkKi2A1
+R7
+31
+R27
+!i10b 1
+R28
+R57
+R58
+!i113 1
+R59
+R13
+Eserial_ctrl
+Z60 w1740773762
+R2
+R3
+R4
+!i122 3
+R0
+Z61 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd
+Z62 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd
+l0
+L5 1
+V8O5IGQFFo^=ckB=VD8m=?1
+!s100 YPi`?PHZ1nj=Le_]c=6NK3
+R7
+31
+R27
+!i10b 1
+R28
+Z63 !s90 -reportprogress|300|-93|-work|work|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd|
+Z64 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_ctrl.vhd|
+!i113 1
+R59
+R13
+Artl
+R2
+R3
+R4
+R46
+!i122 3
+l31
+L22 51
+VmKC]GhkgILYccFAdh>02Q1
+!s100 fZoPTKcCfHWai9i@oeUU91
+R7
+31
+R27
+!i10b 1
+R28
+R63
+R64
+!i113 1
+R59
+R13
+Eserial_uart
+Z65 w1740758446
+R2
+R3
+R4
+!i122 2
+R0
+Z66 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_uart_rtl.vhd
+Z67 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_uart_rtl.vhd
+l0
+L22 1
+VZY@>YP;RmKT:hPY[RR_3n1
+!s100 SZj6;7;FETb_YjZ4^?eOb1
+R7
+31
+R27
+!i10b 1
+R28
+Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_uart_rtl.vhd|
+Z69 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/serial_uart_rtl.vhd|
+!i113 1
+R59
+R13
+Artl
+R2
+R3
+R4
+R47
+!i122 2
+l90
+L46 278
+V>BM=GB_bUehAT5B3>5dz`1
+!s100 cQMlKaLYD0K1<JzR[z5DG3
+R7
+31
+R27
+!i10b 1
+R28
+R68
+R69
+!i113 1
+R59
+R13
+Estartup_reset
+R54
+R3
+R4
+!i122 1
+R0
+Z70 8C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/startup_reset.vhd
+Z71 FC:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/startup_reset.vhd
+l0
+L14 1
+VLTGiZ>?z^];=Y^S]`T7Nl2
+!s100 RUlaXP>=57IKTiOil[CV43
+R7
+31
+R27
+!i10b 1
+R28
+Z72 !s90 -reportprogress|300|-93|-work|work|C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/startup_reset.vhd|
+Z73 !s107 C:/Users/elias/Documents/_MAIN_/SchoolProjects/digitalTEKNIK/lab72s/lab72/startup_reset.vhd|
+!i113 1
+R59
+R13
+Artl
+R3
+R4
+R49
+!i122 1
+l25
+L23 22
+VMJThDifBB7SNM2K8ScEQI1
+!s100 folNnmVOS:mZL0RBbXNZR0
+R7
+31
+R27
+!i10b 1
+R28
+R72
+R73
+!i113 1
+R59
+R13
