@@ -21,8 +21,8 @@ end entity serial_ctrl;
 
 architecture rtl of serial_ctrl is
 	
-	type t_ascii_check is array (5 downto 0) of std_logic_vector(7 downto 0);
-	constant on_off_ascii : t_ascii_check := (X"30",--0
+	type t_ascii_check is array (0 to 5) of std_logic_vector(7 downto 0);
+	constant alt_ascii : t_ascii_check := (X"30",--0
 															X"31",--1
 															X"55",--U
 															X"75",--u
@@ -30,30 +30,33 @@ architecture rtl of serial_ctrl is
 															X"64");--d
 begin
 
-	process(clk)
+	process(clk, Reset_n)
 	begin
 		if(rising_edge(clk)) then
-			serial_up <= '0';
-			serial_down <= '0';
 			if (data_valid = '1') then
 				case(data) is
-					when on_off_ascii(0) =>
+					when alt_ascii(0) =>
 						serial_off <= '1';
 						serial_on <= '0';
-					when on_off_ascii(1) =>
+					when alt_ascii(1) =>
 						serial_off <= '0';
 						serial_on <= '1';
-					when on_off_ascii(2) =>
+					when alt_ascii(2) =>
 						serial_up <= '1';
-					when on_off_ascii(3) =>
+					when alt_ascii(3) =>
 						serial_up <= '1';
-					when on_off_ascii(4) =>
+					when alt_ascii(4) =>
 						serial_down <= '1';				
-					when on_off_ascii(5) =>
+					when alt_ascii(5) =>
 						serial_down <= '1';				
 					when others =>
 						
 				end case;
+			else
+				serial_off <= '0';				
+				serial_up <= '0';
+				serial_down <= '0';
+				serial_on <= '0';			
 			end if;
 			if(Reset_n = '0')then
 				serial_on <= '0';

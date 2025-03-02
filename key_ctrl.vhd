@@ -22,7 +22,7 @@ architecture rtl of key_ctrl is
 
 --timing signals
 	constant s_clk_freq : integer := 50000000;
-	constant s_target_freq : integer := s_clk_freq/200;
+	constant s_target_freq : integer := s_clk_freq/100;
 	type clk_cn is array (3 downto 0) of integer range 0 to s_target_freq;
 
 	signal s_clk_cn : clk_cn;
@@ -33,7 +33,7 @@ architecture rtl of key_ctrl is
 	signal key_n_1r : std_logic_vector(3 downto 0) := "1111";
 	signal key_n_2r : std_logic_vector(3 downto 0) := "1111";
 	signal prev_key_n_2r : std_logic_vector(3 downto 0) := "0000";
-
+	signal debounce_key : boolean := false;
 	
 	signal s_output : std_logic_vector(3 downto 0) := "0000";
 
@@ -59,18 +59,27 @@ begin
 				key_n_2r <= key_n_1r;
 			
 			
-				if(key_n_2r(2) = '0' and prev_key_n_2r(2) = '1') then
+				if(key_n_2r(2) = '0' and prev_key_n_2r(2) = '1' and not debounce_key) then
 					s_output(2) <= not key_n_2r(2);
-				elsif(key_n_2r(3) = '0' and prev_key_n_2r(3) = '1')then
+					debounce_key <= true;
+				elsif(key_n_2r(3) = '0' and prev_key_n_2r(3) = '1' and not debounce_key)then
 					s_output(3) <= not key_n_2r(3); 
+					debounce_key <= true;
 				else
 					s_output(2) <= '0';
 					s_output(3) <= '0';
+					debounce_key <= key_n_2r(3) = '0' or key_n_2r(2) = '0';
 				end if;
 				
-				s_output(1) <= not key_n_2r(1);
-				s_output(0) <= not key_n_2r(0);
-
+				if(not debounce_key and (key_n_2r(0) = '0' or key_n_2r(1) = '0'))then
+					s_output(1) <= not key_n_2r(1);
+					s_output(0) <= not key_n_2r(0);
+					debounce_key <= true;
+				else
+					s_output(1) <= '0';
+					s_output(0) <= '0';
+					debounce_key <= key_n_2r(0) = '0' or key_n_2r(1) = '0';
+				end if;
 				prev_key_n_2r <= key_n_2r;
 			
 			
@@ -83,8 +92,9 @@ begin
 				if(key_n_2r(i) = '0') then
 				
 					if(s_clk_cn(i) < s_target_freq) then
-						s_clk_cn(i) <= s_clk_cn(i) + 1;
-						
+						if(not ((i = 3 or i = 2) and key_n_2r(3) = '0' and key_n_2r(2) = '0'))then
+							s_clk_cn(i) <= s_clk_cn(i) + 1;
+						end if;
 					else
 						s_output(i) <= not s_output(i);
 						s_clk_cn(i) <= 0;

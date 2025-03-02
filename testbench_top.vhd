@@ -159,6 +159,8 @@ architecture bhv of testbench_top is
 begin -- architecture
 ledr(0) <= temps(1);
 ledg(0) <= temps(0);
+ledr(9 downto 1) <= (others => '0');
+ledg(7 downto 1) <= (others => '0');
 
    assert not (ledr(0) = '1')
       report "RED LED indicating receive error is set high!"

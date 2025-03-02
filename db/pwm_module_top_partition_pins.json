@@ -64,14 +64,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "hex2[1]",
-					"strict" : false
-				},
-				{
-					"name" : "hex2[2]",
-					"strict" : false
-				},
-				{
 					"name" : "hex2[3]",
 					"strict" : false
 				},
@@ -84,10 +76,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "hex2[6]",
-					"strict" : false
-				},
-				{
 					"name" : "ledr[0]",
 					"strict" : false
 				},
@@ -96,15 +84,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "tx",
-					"strict" : false
-				},
-				{
 					"name" : "clk",
 					"strict" : false
 				},
 				{
 					"name" : "rx",
+					"strict" : false
+				},
+				{
+					"name" : "key_n[0]",
 					"strict" : false
 				},
 				{
@@ -117,10 +105,6 @@
 				},
 				{
 					"name" : "key_n[1]",
-					"strict" : false
-				},
-				{
-					"name" : "key_n[0]",
 					"strict" : false
 				}
 			]
