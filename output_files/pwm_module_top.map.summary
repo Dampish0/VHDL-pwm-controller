@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sun Mar 02 20:56:15 2025
+Analysis & Synthesis Status : Successful - Sun Mar 02 23:56:33 2025
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : pwm_module_top
 Top-level Entity Name : pwm_module_top
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 213
+Total registers : 281
 Total pins : 38
 Total virtual pins : 0
 Total block memory bits : 0

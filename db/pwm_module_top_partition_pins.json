@@ -84,6 +84,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "tx",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
 					"strict" : false
 				},
@@ -96,11 +100,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "key_n[2]",
+					"name" : "key_n[3]",
 					"strict" : false
 				},
 				{
-					"name" : "key_n[3]",
+					"name" : "key_n[2]",
 					"strict" : false
 				},
 				{

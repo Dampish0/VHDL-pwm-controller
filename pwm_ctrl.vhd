@@ -38,7 +38,7 @@ architecture rtl of pwm_ctrl is
 	signal s_dc_cn : integer range 0 to s_clk_cn_max + 1;
 	signal s_maxupdate_cn : integer range 0 to 10;
 	
-	signal 	 : integer range 10 to 100 := 100;
+	signal s_pwm_dc	 : integer range 10 to 100 := 100;
 	signal s_pwm_dc_last : integer range 0 to 100 := 0;
 	signal s_isEnabled : std_logic := '0'; 
 	signal s_dc_changed : std_logic :=  '0';
