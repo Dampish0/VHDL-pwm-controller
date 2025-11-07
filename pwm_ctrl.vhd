@@ -123,7 +123,7 @@ begin
 						s_isEnabled <= '0';
 					end if;
 					
-					if(key_up = '1' and s_pwm_dc <= 100)then
+					if(key_up = '1' and s_pwm_dc < 100)then
 						if(s_isEnabled = '0')then
 							s_isEnabled <= '1';
 							s_pwm_dc <= 10;
@@ -132,7 +132,7 @@ begin
 						end if;
 					elsif(key_down = '1' and s_pwm_dc > 10)then
 						s_pwm_dc <= s_pwm_dc -1;
-					elsif(serial_up = '1' and s_pwm_dc <= 100)then
+					elsif(serial_up = '1' and s_pwm_dc < 100)then
 						if(s_isEnabled = '0')then
 							s_isEnabled <= '1';
 							s_pwm_dc <= 10;
